@@ -1,14 +1,15 @@
+#pragma leco add_resource "cmudict/cmudict.dict"
 export module carnage;
 import hai;
 import hashley;
-import jojo;
 import jute;
+import sires;
 
 export namespace carnage {
   struct unknown_word {};
   
   class map {
-    hai::cstr file = jojo::read_cstr("cmudict/cmudict.dict");
+    hai::cstr file = sires::jojo_cstr("cmudict.dict");
     hashley::niamh w2p { 101113 };
   
   public:
