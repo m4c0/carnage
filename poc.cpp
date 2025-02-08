@@ -10,7 +10,7 @@ struct unknown_word {};
 
 int main(int argc, char ** argv) {
   hai::cstr file = jojo::read_cstr("cmudict/cmudict.dict");
-  hashley::niamh w2p { 1023 };
+  hashley::niamh w2p { 101113 };
 
   jute::view lines { file };
   while (lines.size()) {
